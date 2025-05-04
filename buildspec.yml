@@ -2,8 +2,8 @@ phases:
   install: 
     runtime-versions:
       nodejs: 16
-  prebuild:
-    commond: 
+  pre_build:
+    commands: 
       - echo Nothing to do in the pre_build phase...
   build:
     commands:
